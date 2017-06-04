@@ -1,0 +1,10 @@
+input:
+  class: File
+  path: excapgene1normoutstp8.bam
+reference:
+  class: File
+  path: /home/cc/ReferenceData/genome_sorted.fa
+targetIntervals:
+  class: File
+  path: realignment_targets.list
+output: excapgene1normoutstp9.bam

@@ -1,0 +1,10 @@
+reference:
+  class: File
+  path: ~/ref_genome/genome_sorted.fa
+norinput:
+  class: File
+  path: norm_data/excapgene1normoutstp11.bam
+tumorinput:
+  class: File
+  path: tumor_data/excapgene1tumoroutstp11.bam
+output: excapgene1combooutstp12.mpileup

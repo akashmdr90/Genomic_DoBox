@@ -1,0 +1,10 @@
+input:
+  class: File
+  path: excapgene1combooutstp12.mpileup 
+output: excapgene1combooutstp13.vcf 
+mpileup: 1
+min-coverage: 20
+min-var-freq: 0.05
+output-vcf: 1
+
+

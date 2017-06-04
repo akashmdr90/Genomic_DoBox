@@ -1,0 +1,7 @@
+input:
+  class: File
+  path: excapgene1normoutstp9.bam
+so: coordinate
+validation: LENIENT
+index: true
+output: excapgene1normoutstp10.bam

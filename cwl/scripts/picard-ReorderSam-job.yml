@@ -1,0 +1,8 @@
+input:
+  class: File
+  path: excapgene1normoutstp7.bam
+reference:
+  class: File
+  path: /home/cc/ReferenceData/genome_sorted.fa
+output: excapgene1normoutstp8.bam
+

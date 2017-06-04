@@ -1,0 +1,5 @@
+input:
+  class: File
+  path: excapgene1normoutstp8.bam
+output: excapgene1normoutstp8.bai
+

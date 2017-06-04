@@ -1,0 +1,7 @@
+sortorder: coordinate
+input:
+  class: File
+  path: excapgene1normoutstp4.bam
+valid: LENIENT
+createind: TRUE
+output: excapgene1normoutstp5.bam

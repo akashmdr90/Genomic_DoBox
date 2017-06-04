@@ -1,0 +1,56 @@
+numInput1: 48
+genomeInput1:
+  class: File
+  path: /home/cc/ReferenceData/genome_sorted.fa
+fastq_oneInput:
+  class: File
+  path: test_R1.fastq
+fastq_twoInput:
+  class: File
+  path: test_R2.fastq
+output1: excapgene1normoutstp1.sam
+formatInput2: 3844
+qualityInput2: 10
+output2:  excapgene1normoutstp2.sam
+output3: excapgene1normoutstp3.sam
+qScore3: 50 
+nmSize3: 5
+insertSize3: 100
+numThreads4: 10
+output4: excapgene1normoutstp4.bam
+sortorder5: coordinate
+output5: excapgene1normoutstp5.bam
+valid5: LENIENT
+createind5: TRUE
+output6: excapgene1normoutstp6.bam
+metrics6: metrics
+createind6: TRUE
+valid6: LENIENT
+removedup6: TRUE
+output7: excapgene1normoutstp7.bam
+rgid7: 2
+rglb7: Unknown
+rgpl7: Illumina
+rgpu7: sampleIndex
+rgsm7: sampleName
+valid7: SILENT
+output8: excapgene1normoutstp8.bam
+reference8:
+  class: File
+  path: /home/cc/ReferenceData/genome_sorted.fa
+output9: excapgene1normoutstp8.bai
+reference10:
+  class: File
+  path: /home/cc/ReferenceData/genome_sorted.fa
+numThreads10: 10
+input10:
+  class: File
+  path: excapgene1normoutstp8.bam
+output10: realignment_targets.list
+reference11:
+  class: File
+  path: /home/cc/ReferenceData/genome_sorted.fa
+targetIntervals11:
+  class: File
+  path: realignment_targets.list
+output11: excapgene1normoutstp9.bam

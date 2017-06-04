@@ -1,5 +1,4 @@
 cwlVersion: v1.0
-
 class: CommandLineTool
 baseCommand: java
 arguments:
@@ -29,7 +28,15 @@ inputs:
     inputBinding:
       position: 6
       prefix: R=
-      separate: true
+      separate: false
+    secondaryFiles:
+      - ".amb"
+      - ".ann"
+      - ".bwt"
+      - ".fai"
+      - ".pac"
+      - ".sa"
+      - ".dict"
 outputs: 
   result:
     type: File

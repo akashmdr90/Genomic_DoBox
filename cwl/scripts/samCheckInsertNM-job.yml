@@ -1,0 +1,7 @@
+input:
+  class: File
+  path: excapgene1normoutstp2.sam
+output: excapgene1normoutstp3.sam
+qScore: 50 
+nmSize: 5
+insertSize: 100

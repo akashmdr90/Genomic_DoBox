@@ -1,0 +1,8 @@
+reference:
+  class: File
+  path: /home/cc/ReferenceData/genome_sorted.fa
+numThreads: 10
+input:
+  class: File
+  path: excapgene1normoutstp8.bam
+output: realignment_targets.list

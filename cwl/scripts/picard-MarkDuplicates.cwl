@@ -1,5 +1,4 @@
 cwlVersion: v1.0
-
 class: CommandLineTool
 baseCommand: java
 arguments:
@@ -10,7 +9,6 @@ arguments:
     prefix: -jar
   - valueFrom: MarkDuplicates
     position: 3
-
 inputs:
   input:
     type: File
@@ -31,7 +29,7 @@ inputs:
       prefix: METRICS_FILE=
       separate: false
   createind:
-    type: string
+    type: boolean
     inputBinding:
       position: 7
       prefix: CREATE_INDEX=
@@ -43,7 +41,7 @@ inputs:
       prefix: VALIDATION_STRINGENCY=
       separate: false
   removedup:
-    type: string
+    type: boolean
     inputBinding:
       position: 9
       prefix: REMOVE_DUPLICATES=

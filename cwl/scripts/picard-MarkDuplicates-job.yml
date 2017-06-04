@@ -1,0 +1,8 @@
+input:
+  class: File
+  path: excapgene1normoutstp5.bam
+metrics: metrics
+createind: true
+valid: LENIENT
+removedup: true
+output: excapgene1normoutstp6.bam

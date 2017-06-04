@@ -1,0 +1,5 @@
+numThreads: 10
+input:
+  class: File
+  path: excapgene1normoutstp2.sam
+output: excapgene1normoutstp4.bam

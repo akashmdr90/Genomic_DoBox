@@ -1,0 +1,6 @@
+numThreads: 10
+reference:
+  class: File
+  path: /home/cc/ReferenceData/genome_sorted.fa
+Sites: vcf_dbSNP135
+output: recal_data.csv

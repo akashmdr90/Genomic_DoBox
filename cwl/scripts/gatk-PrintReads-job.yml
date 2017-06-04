@@ -1,0 +1,11 @@
+reference:
+  class: File
+  path: /home/cc/ReferenceData/genome_sorted.fa
+numThreads: 10
+input:
+  class: File
+  path: excapgene1normoutstp10.bam
+recal_data:
+  class: File
+  path: recal_data.csv
+output: excapgene1normoutstp11.bam

@@ -2,5 +2,5 @@ format: 3844
 quality: 10
 input:
   class: File
-  path: step1.sam
-output: step2.sam
+  path: excapgene1normoutstp1.sam
+output: excapgene1normoutstp2.sam
